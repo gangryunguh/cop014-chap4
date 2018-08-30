@@ -18,19 +18,7 @@ int main()
         << "tell you the letter grade you earned: ";
    cin >> testScore;
    
-   // Determine the letter grade.
-   if (testScore >= A_SCORE)
-      cout << "Your grade is A.\n";
-   else if (testScore >= B_SCORE)
-      cout << "Your grade is B.\n";
-   else if (testScore >= C_SCORE)
-      cout << "Your grade is C.\n";
-   else if (testScore >= D_SCORE)
-      cout << "Your grade is D.\n";
-   else if (testScore >= 0)
-      cout << "Your grade is F.\n";
-   else
-      cout << "Invalid test score.\n";
+   // Determine the letter grade only if the score is valid
 
    return 0;
 } 

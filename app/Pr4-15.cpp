@@ -19,16 +19,8 @@ int main()
    cin >> recentGrad;
 
    // Determine the user's loan qualifications.
-   if (employed == 'Y' && recentGrad == 'Y')
-   {
-      cout << "You qualify for the special "
-           << "interest rate.\n";
-   }
-   else
-   {
-      cout << "You must be employed and have\n"
-           << "graduated from college in the\n"
-           << "past two years to qualify.\n";
-   }
+   // He/she is only qualified when employed and recentGrad are equal to 'Y'
+
+
    return 0;
 } 

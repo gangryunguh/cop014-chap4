@@ -18,7 +18,8 @@ int main()
    cout << fixed << showpoint << setprecision(1);
    cout << "Your average is " << average << endl;
 
-   // ERROR! This if statement is missing its braces!
+   // Following statement has a bug.
+   // Correct the bug
    if (average > 95)
       cout << "Congratulations!\n";
       cout << "That's a high score.\n";

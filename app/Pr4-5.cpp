@@ -20,7 +20,10 @@ int main()
 
    // Our intention is to congratulate the user
    // for having a perfect score. But, this doesn't work.
-   if (average = 100)  // WRONG! This is an assignment!
+
+   // *Find out* one implementation bug in the following if statement
+   // and *correct* the bug
+   if (average = 100)
       cout << "Congratulations! That's a perfect score!\n";
    return 0;
 }

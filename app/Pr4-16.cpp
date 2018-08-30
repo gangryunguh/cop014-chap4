@@ -19,16 +19,12 @@ int main()
    cout << "How many years have you worked at "
         << "your current job? ";
    cin >> years;
-   
+
    // Determine the user's loan qualifications.
-   if (income >= MIN_INCOME || years > MIN_YEARS)
-      cout << "You qualify.\n";
-   else
-   {
-      cout << "You must earn at least $"
-           << MIN_INCOME << " or have been "
-           << "employed more than " << MIN_YEARS
-           << " years.\n";
-   }
+   // he/she is qualified when either income is equal-or-larger than
+   // 35000 or work years is larger than 5
+
+
+
    return 0;
 }

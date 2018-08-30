@@ -8,7 +8,8 @@ int main()
    double a = 1.5;            // a is 1.5.
    double b = 1.5;            // b is 1.5.
 
-   a += 0.0000000000000001;   // Add a little to a.
+   // Add a little, i.e., 0.0000000000000001, to a.
+
    if (a == b)
       cout << "Both a and b are the same.\n";
    else

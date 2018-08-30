@@ -17,24 +17,10 @@ int main()
    cout << "in the past two years? ";
    cin >> recentGrad;
 
-   // Determine the user's loan qualifications.
-   if (employed == 'Y')
-   {
-      if (recentGrad == 'Y') // Nested if
-      {
-         cout << "You qualify for the special ";
-         cout << "interest rate.\n";
-      }
-      else // Not a recent grad, but employed
-      {
-         cout << "You must have graduated from ";
-         cout << "college in the past two\n";
-         cout << "years to qualify.\n";
-      }
-   }
-   else  // Not employed
-   {
-      cout << "You must be employed to qualify.\n";
-   }
+   // Determine the user's loan qualifications by inspecting 3 cases
+   // case 1: employed and recentGrad
+   // case 2: employed but not recentGrade
+   // case 3: not employed
+
    return 0;
 } 
