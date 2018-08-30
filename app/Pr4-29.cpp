@@ -18,7 +18,12 @@ int main()
       // Get the number of years at the current job.
       cout << "How many years have you worked at "
            << "your current job? ";
-      int years;     // Variable definition
+
+      // Define int data type variable years.
+      // The scope of the variable years begins with this definition
+      // and ends with the closing curly brace of the if then block.
+
+
       cin >> years;
       
       if (years > MIN_YEARS)

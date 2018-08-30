@@ -16,12 +16,13 @@ int main()
    cout << "How many hours were worked? ";
    cin >> hours;
 
-   // Determine the hours to charge for.
-   hours = hours < MIN_HOURS ? MIN_HOURS : hours;
-   
-   // Calculate and display the charges.
+   // Determine the hours to charge using conditional expression
+
+   // Calculate the charges.
    charges = PAY_RATE * hours;
-   cout << fixed << showpoint << setprecision(2)
-        << "The charges are $" << charges << endl;
+
+   // print the charges to the console with 2 fractional digits
+
+
    return 0;
 }

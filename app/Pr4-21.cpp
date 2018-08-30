@@ -20,15 +20,13 @@ int main()
         << "wish to purchase: ";
    cin >> partNum;
 
-   // Set the numeric output formatting
-   cout << fixed << showpoint << setprecision(2);
+   // Set the numeric output formatting to print
+   // the price with 2 fractional digits
 
-   // Determine and display the correct price
-   if (partNum == "S-29A")
-      cout << "The price is $" << PRICE_A << endl;
-   else if (partNum == "S-29B")
-      cout << "The price is $" << PRICE_B << endl;
-   else
-      cout << partNum << " is not a valid part number.\n";
+
+   // Determine and display the correct price according to
+   // the partNum which being read from keyboard.
+
+
    return 0;
 }

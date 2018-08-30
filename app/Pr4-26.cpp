@@ -10,22 +10,14 @@ int main()
    
    // Get the desired grade of feed.
    cout << "Our pet food is available in three grades:\n";
-   cout << "A, B, and C. Which do you want pricing for? ";
+   cout << "A or a, B or b, and C or c. Which do you want pricing for? ";
    cin >> feedGrade;
    
-   // Display the price.
-   switch(feedGrade)
-   {
-      case 'a':
-      case 'A': cout << "30 cents per pound.\n";
-                break;
-      case 'b':
-      case 'B': cout << "20 cents per pound.\n";
-                break;
-      case 'c':
-      case 'C': cout << "15 cents per pound.\n";
-                break;
-      default:  cout << "That is an invalid choice.\n";
-   }
+   // Display the price
+   // for 'A' or 'a' for 30 cents per pound
+   // for 'B' or 'b' for 20 cents per pound
+   // for 'C' or 'c' for 15 cents per pound
+
+
    return 0;
 }

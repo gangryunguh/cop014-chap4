@@ -21,17 +21,9 @@ int main()
    cin >> years;
    
    // Determine the user's loan qualifications.
-   // he/she is not qualified when either income is not equal-or-larger than
-   // 35000 and work years is not larger than 5
+   // he/she is not qualified when both income is *not* equal-or-larger than
+   // 35000 and work years is *not* larger than 5
 
-   if (!(income >= MIN_INCOME || years >  MIN_YEARS))
-   {
-      cout << "You must earn at least $"
-		   << MIN_INCOME << " or have been "
-           << "employed more than " << MIN_YEARS 
-	       << "years.\n";
-   }
-   else
-      cout << "You qualify.\n";
+
    return 0;
 }

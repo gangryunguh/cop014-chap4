@@ -9,14 +9,10 @@ int main()
 
    cout << "Enter A, B, or C: ";
    cin >> choice;
-   // The following switch is
-   // missing its break statements!
-   switch (choice)
-   {
-      case 'A': cout << "You entered A.\n";
-      case 'B': cout << "You entered B.\n";
-      case 'C': cout << "You entered C.\n";
-      default:  cout << "You did not enter A, B, or C!\n";
-   }
+
+   // Demonstrate the outcome without break statement in the switch statement
+   //
+
+
    return 0;
 } 

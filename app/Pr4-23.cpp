@@ -9,15 +9,9 @@ int main()
 
    cout << "Enter A, B, or C: ";
    cin >> choice;
-   switch (choice)
-   {
-      case 'A': cout << "You entered A.\n";
-                break;
-      case 'B': cout << "You entered B.\n";
-                break;
-      case 'C': cout << "You entered C.\n";
-                break;
-      default:  cout << "You did not enter A, B, or C!\n";
-   }
+
+   // using switch statement, determine whether the choice is 'A', 'B', 'C', or something else.
+
+
    return 0;
 } 

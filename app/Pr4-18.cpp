@@ -31,39 +31,16 @@ int main()
    cout << "Enter your choice: ";
    cin >> choice;
    
-   // Set the numeric ouput formatting.
-   cout << fixed << showpoint << setprecision(2);
+   // Set the numeric ouput formatting to print
+   // charges with two fractional digits
+
    
-   // Respond to the user's menu selection.
-   if (choice == ADULT_CHOICE)
-   {
-      cout << "For how many months? ";
-      cin >> months;
-      charges = months * ADULT;
-      cout << "The total charges are $" << charges << endl;
-   }
-   else if (choice == CHILD_CHOICE)
-   {
-      cout << "For how many months? ";
-      cin >> months;
-      charges = months * CHILD;
-      cout << "The total charges are $" << charges << endl;
-   }
-   else if (choice == SENIOR_CHOICE)
-   {
-      cout << "For how many months? ";
-      cin >> months;
-      charges = months * SENIOR;
-      cout << "The total charges are $" << charges << endl;
-   }
-   else if (choice == QUIT_CHOICE)
-   {
-       cout << "Program ending.\n";
-   }
-   else
-   {
-      cout << "The valid choices are 1 through 4. Run the\n";
-      cout << "program again and select one of those.\n";
-   }
+   // Respond to the user's menu selection based on choice which read from line 32
+   // According to ADULT_CHOICE, CHILD_CHOICE, SENIOR_CHOICE, or QUIT_CHOICE,
+   // charges need to be calculated by multiplying number of months and the proper
+   // membership rate. Please also check whether invalid choice selection is made
+   // or not
+
+
    return 0;
 }

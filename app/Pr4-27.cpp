@@ -1,5 +1,6 @@
 // This program uses a switch statement to determine
-// the item selected from a menu.
+// the item selected from a menu. This is the different
+// implementation of Pr4-18 using switch statement.
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -33,38 +34,9 @@ int main()
    // Set the numeric ouput formatting.
    cout << fixed << showpoint << setprecision(2);
    
-   // Respond to the user's menu selection.
-   switch (choice)
-   {
-      case ADULT_CHOICE:
-         cout << "For how many months? ";
-         cin >> months;
-         charges = months * ADULT;
-         cout << "The total charges are $" << charges << endl;
-         break;
-         
-      case CHILD_CHOICE:
-         cout << "For how many months? ";
-         cin >> months;
-         charges = months * CHILD;
-         cout << "The total charges are $" << charges << endl;
-         break;
-         
-      case SENIOR_CHOICE:
-         cout << "For how many months? ";
-         cin >> months;
-         charges = months * SENIOR;
-         cout << "The total charges are $" << charges << endl;
-         break;
-        
-      case QUIT_CHOICE:
-         cout << "Program ending.\n";
-         break;
-         
-      default:
-         cout << "The valid choices are 1 through 4. Run the\n"
-              << "program again and select one of those.\n";
-   }
+   // Respond to the user's menu selection using switch statement
+   // The switch statement should achieve the same effect of
+   // Pr4-18 that uses if-elseif statements.
 
    return 0;
 }

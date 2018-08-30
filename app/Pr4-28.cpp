@@ -10,13 +10,17 @@ int main()
 
    // Get the annual income.
    cout << "What is your annual income? ";
-   double income;    // Variable definition
+
+   // Variable definition for double data type income
+
    cin >> income;
    
    // Get the number of years at the current job.
    cout << "How many years have you worked at "
         << "your current job? ";
-   int years;        // Variable definition
+
+   // Variable definition for int data type years
+
    cin >> years;
    
    // Determine the user's loan qualifications.
