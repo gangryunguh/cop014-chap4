@@ -14,8 +14,8 @@ int main()
    cin >> score1 >> score2 >> score3;
    
    // Calculate and display the average score.
-   average = (score1 + score2 + score3) / 3.0;
-   cout << fixed << showpoint << setprecision(1);
+   // Print the average score with displaying one fractional digit
+
    cout << "Your average is " << average << endl;
 
    // Our intention is to congratulate the user

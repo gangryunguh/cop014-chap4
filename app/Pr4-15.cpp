@@ -19,7 +19,7 @@ int main()
    cin >> recentGrad;
 
    // Determine the user's loan qualifications.
-   // He/she is only qualified when employed and recentGrad are equal to 'Y'
+   // He/she is only qualified when both employed and recentGrad are equal to 'Y'
 
 
    return 0;

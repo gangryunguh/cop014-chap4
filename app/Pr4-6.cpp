@@ -13,15 +13,16 @@ int main()
 
    // Get the three test scores.
    cout << "Enter 3 test scores and I will average them: ";
-   cin >> score1 >> score2 >> score3;
-   
-   // Calculate and display the average score.
-   average = (score1 + score2 + score3) / 3.0;
-   cout << fixed << showpoint << setprecision(1);
+
+   // reading three integer values for score1, score2, and score3
+
+   // Calculate and display the average score
+   //     the format of average score must include 1 fractional digit
+
    cout << "Your average is " << average << endl;
    
-   // If the average is high, congratulate the user.
-   if (average > HIGH_SCORE)
+   // If the average is higher than HIGH_SCORE, congratulate the user.
+
    {
       cout << "Congratulations!\n";
       cout << "That's a high score.\n";
